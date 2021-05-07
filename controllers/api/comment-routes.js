@@ -11,4 +11,13 @@ router.post('/', async (req, res) => {
     }
 })
 
+router.get('/', async (req, res) => {
+    try {
+        const allComments = await Comment.findAll();
+        res.status(200).json(allComments);
+    } catch (err) {
+        res.status(400).json(err);
+    }
+})
+
 module.exports = router;

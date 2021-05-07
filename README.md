@@ -1,8 +1,7 @@
 # 14-tech-blog
 
 ## Description
-
-## Table of Contents
+This is an ecommerce back end data base for a retail supplier. There are different categories that will include categories, products, and tags. There will be prices, descriptions and inventory. 
 
 ## Installation
 npm i
@@ -21,12 +20,9 @@ npm i connect-session-sequelize
 
 MIT License
 
-## Contributing
-
 ## Test Instructions
+User Test
 
-## Questions
-
-## Screenshot
-
+## Video Walk through link
+https://drive.google.com/file/d/1osQ2GeIuYZxXVOlWTHKez3jiubJW8eTL/view?usp=sharing
 ## Resources
